@@ -6,10 +6,10 @@ import RegisterPage from '../pages/RegisterPage'
 import LoginPage from '../pages/LoginPage'
 import UserPage from '../pages/UserPage'
 import ProductPage from '../pages/ProductPage'
-import CartPage from '../pages/CartPage'
+import CartPage from '../Pages/CartPage'
 import AdminPage from '../pages/AdminPage'
 import ErrorPage from '../pages/ErrorPage'
-import NavbarH from '../components/NavbarH'
+import NavbarH from '../Components/NavbarH'
 import Footer from '../components/Footer'
 const RoutesFrontPage = () => {
   return (
