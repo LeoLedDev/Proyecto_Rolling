@@ -7,24 +7,26 @@ const Footer = () => {
   <>
    
     <footer className="footer">
-        <div className="container">
-            <div className="row text-center">
-                <div className="col-sm-12 col-md-6 col-lg-4">
+        <div className="container mt-2">
+            <div className="row text-center py-2">
+                <div className="col-sm-12 col-md-4 col-lg-4">
                     <NavLink to="/*"></NavLink>
 
-                    <h5 className="text-dark">Texto</h5>
-                    <h5 className="text-dark">fsfsf@gmail.com</h5>
-                </div>
-                <div className="col-sm-12 col-md-6 col-lg-4">
-                    <h5 className="text-dark">Redes</h5>
-                    <NavLink to="/*" className="nav-link text-dark">Facebook</NavLink>
-                    <NavLink to="/*" className="nav-link text-dark mx-3">Instagram</NavLink>
-                    <NavLink to="/*" className="nav-link text-dark">TiKTok</NavLink>
-                </div>
-                <div className="col-sm-12 col-md-6 col-lg-4">
-
-                    <h5 className="text-dark">Texto</h5>
+                    <h5 className="text-white">Hotel California</h5>
+                    <h5 className="text-white">Av. Aconquija 534</h5>
                    
+                </div>
+                <div className="col-sm-12 col-md-4 col-lg-4">
+                    <h5 className="text-white">Redes</h5>
+                    <NavLink to="/*" className="nav-link text-white">Facebook</NavLink>
+                    <NavLink to="/*" className="nav-link text-white ">Instagram</NavLink>
+                    <NavLink to="/*" className="nav-link text-white">Twitter</NavLink>
+                </div>
+                <div className="col-sm-12 col-md-4 col-lg-4">
+                <h5 className="text-white">Contacto</h5>
+                <h5 className="text-white">hotelcalifornia@gmail.com</h5>
+                <h5 className="text-white">Tel: 3815235689</h5>
+                            
                     
                 </div>
             </div >
