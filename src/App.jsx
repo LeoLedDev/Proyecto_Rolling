@@ -6,6 +6,7 @@ const App = () => {
   return (
 <>
 <Router>
+  <h1>Hola</h1>
   <RoutesFrontPage />
 </Router>
 </>
