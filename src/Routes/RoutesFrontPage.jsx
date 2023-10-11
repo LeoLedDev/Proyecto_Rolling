@@ -10,7 +10,7 @@ import CartPage from '../Pages/CartPage'
 import AdminPage from '../pages/AdminPage'
 import ErrorPage from '../pages/ErrorPage'
 import NavbarH from '../Components/NavbarH'
-import Footer from '../components/Footer'
+import Footer from '../Components/Footer'
 const RoutesFrontPage = () => {
   return (
     <>
