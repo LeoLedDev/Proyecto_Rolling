@@ -25,7 +25,7 @@ const LoginPage = () => {
         <div className="row text-center">
             <div className='d-flex justify-content-center mt-5 formulario'>
               <Form>
-              <img src='https://trello.com/1/cards/650dd3c783c467c8db69bc54/attachments/650dd3e2eee11a0e9143f038/download/2489446-7291.png' width="100" height="60"></img>
+              <img src='src/img/Logo California hotel.png' width="100" height="90px" alt='Logo_de_Pagina'></img>
                 <h5>Inicio de Sesion</h5>
                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                   <Form.Label>Usuario</Form.Label>
@@ -33,7 +33,7 @@ const LoginPage = () => {
                   <small className='text-danger'>{errors.user && touched.user && errors.user}</small>
                 </Form.Group>
 
-                <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+                <Form.Group className="mb-3" controlId="exampleForm.ControlInput2">
                   <Form.Label>Contraseña</Form.Label>
                   <Form.Control type="password" name='password' value={values.password} className={errors.password && touched.password && errors.password && 'is-invalid'} onChange={handleChange} maxLength={18} />
                   <small className='text-danger'>{errors.password && touched.password && errors.password}</small>
@@ -41,9 +41,9 @@ const LoginPage = () => {
                 <Button className='w-100 my-3' type='submit' onClick={handleSubmit}>Iniciar Sesion</Button>
                 <hr />
                 <NavLink to='/' className='nav-link' >Recuperar Contraseña</NavLink>
-                <NavLink to='/register' className='nav-link text-primary' >Registrate</NavLink>
+                <NavLink to='/register' className='nav-link text-primary' >Registrarse</NavLink>
                 <hr />
-                <small>Iniciar Sesion con</small>
+                <small>Iniciar Sesion con :</small>
                 <br />
                 <NavLink to='/*' className='nav-link' ><small className='text-primary'>Facebook</small></NavLink>
                 <br />

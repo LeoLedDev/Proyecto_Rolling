@@ -12,7 +12,7 @@ const NavbarH = () => {
     <>
       <Navbar  expand="lg" className="">
         <Container>
-          <Navbar.Brand to="/"><img id='logo' src="" height="100px" alt="" /></Navbar.Brand>
+          <Navbar.Brand to="/"><img id='logo' src='src/img/Logo California hotel.png' height="70px" alt="Logo_de_Pagina"/></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
