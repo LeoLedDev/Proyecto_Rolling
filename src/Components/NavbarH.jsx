@@ -19,7 +19,7 @@ const NavbarH = () => {
               <NavLink to="/" className={'nav-link text-white'}>Inicio</NavLink>
               <NavLink to="/about" className={'nav-link text-white'}>Nosotros</NavLink>
               <NavLink to="/contact" className={'nav-link text-white'}>Contacto</NavLink>
-              <NavLink to="/product" className={'nav-link text-white'}>Servicios</NavLink>
+              <NavLink to="/service" className={'nav-link text-white'}>Servicios</NavLink>
               <NavLink to="/product" className={'nav-link text-white'}>Habitaciones</NavLink>
               
             </Nav>
