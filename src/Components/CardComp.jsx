@@ -14,7 +14,7 @@ const CardComp = () => {
               <Card.Text>
                 1 cama de 1,40 x 2,00 metros
               </Card.Text>
-              <Link to='/product' className='btn btn-outline-danger'>Reservar</Link>
+              <Link to='/product' className='btn btn-outline-success'>Reservar</Link>
             </Card.Body>
           </Card>
         </div>

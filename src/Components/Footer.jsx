@@ -14,6 +14,7 @@ const Footer = () => {
 
                     <h5 className="text-white">Hotel California</h5>
                     <h5 className="text-white">Av. Aconquija 534</h5>
+                    <NavLink to="/about" className={'nav-link text-white'}>¡Conoce nuestro equipo!</NavLink>
                    
                 </div>
                 <div className="col-sm-12 col-md-4 col-lg-4">
