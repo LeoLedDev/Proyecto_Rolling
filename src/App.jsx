@@ -1,6 +1,6 @@
 import React from 'react'
 import {BrowserRouter as Router } from 'react-router-dom'
-import RoutesFrontPage from './routes/RoutesFrontPage'
+import RoutesFrontPage from './Routes/RoutesFrontPage'
 
 
 const App = () => {
